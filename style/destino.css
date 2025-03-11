@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Splash&display=swap');
+
+
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #472836;
+    font-family: "Playwrite HU", cursive;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-content{
+    text-align: center;
+    color: darkseagreen;
+    padding: 35px;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: darkseagreen;
+}
+
+.card:hover{
+    background-color: lightcyan;
+    box-shadow: 0 5px 15px rgba(0,0,0.3);
+    transform: scale(1.05);
+}
